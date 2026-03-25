@@ -1,0 +1,4 @@
+interface:
+  display_name: "Merge Scan File"
+  short_description: "合并双面扫描 PDF 并自动重排页序"
+  default_prompt: "接收两个扫描 PDF，优先按页脚 x/n 标记重排；若不可用则按文件名序号判断奇偶页并穿插合并，输出 Merged_XXX.pdf。"
